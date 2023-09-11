@@ -1,0 +1,43 @@
+Package: idealista18
+Type: Package
+Title: Idealista 2018 Data Package
+Version: 0.1.1
+Date: 2021-07-17
+Authors@R: 
+    c(person("David", "Rey", , "drey@idealista.com", role = c("aut"),
+           comment = c(ORCID = "0000-0002-3549-1714")),
+           person("Pelayo", "Arbues", , "pgarbues@idealista.com", role = c("aut"),
+           comment = c(ORCID = "0000-0001-9639-1074")),
+           person("Fernando", "Lopez", , "fernando.lopez@upct.es", role = c("aut"),
+           comment = c(ORCID = "0000-0002-5397-9748")),
+           person("Antonio", "Paez", , "paezha@mcmaster.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6912-9919")))
+Description: Open data product with real estate listings from Idealista. 
+    The datasets are for year 2018 and three major cities in Spain: Barcelona, Madrid, and Valencia.
+Depends: R (>= 3.5.0)
+Suggests: dplyr, ggplot2, kableExtra, knitr, rmarkdown, sf, skimr
+License: ODbLv1.0
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+VignetteBuilder: knitr
+RoxygenNote: 7.2.0
+URL: https://paezha.github.io/idealista18/
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: idealista18
+RemoteUsername: paezha
+RemoteRef: HEAD
+RemoteSha: 7d64560fccf2e4e8de65d58f223d6e5e5836672d
+GithubRepo: idealista18
+GithubUsername: paezha
+GithubRef: HEAD
+GithubSHA1: 7d64560fccf2e4e8de65d58f223d6e5e5836672d
+NeedsCompilation: no
+Packaged: 2022-11-03 12:26:15 UTC; Gema.FAviles
+Author: David Rey [aut] (<https://orcid.org/0000-0002-3549-1714>),
+  Pelayo Arbues [aut] (<https://orcid.org/0000-0001-9639-1074>),
+  Fernando Lopez [aut] (<https://orcid.org/0000-0002-5397-9748>),
+  Antonio Paez [aut, cre] (<https://orcid.org/0000-0001-6912-9919>)
+Maintainer: Antonio Paez <paezha@mcmaster.ca>
+Built: R 4.2.1; ; 2022-11-03 12:26:17 UTC; windows

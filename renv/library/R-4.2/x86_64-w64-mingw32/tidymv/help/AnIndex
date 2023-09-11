@@ -1,0 +1,17 @@
+tidymv-package	tidymv-package
+create_start_event	create_start_event
+find_difference	find_difference
+geom_smooth_ci	geom_smooth_ci
+get_difference	get_difference
+get_gam_predictions	get_gam_predictions
+get_smooths_difference	get_smooths_difference
+inter_df	inter_df
+plot_difference	plot_difference
+plot_gamsd	tidymv-defunct
+plot_gamsd-defunct	plot_gamsd-defunct
+plot_smooths	plot_smooths
+pois_df	pois_df
+predict_gam	predict_gam
+summary_data	summary_data
+tidymv	tidymv-package
+tidymv-defunct	tidymv-defunct

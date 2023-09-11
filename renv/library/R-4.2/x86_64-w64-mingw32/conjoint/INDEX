@@ -1,0 +1,41 @@
+Conjoint                Function Conjoint sums up the main results of
+                        conjoint analysis
+ShowAllSimulations      Function ShowAllSimulations sums up the results
+                        of all simulation functions
+ShowAllUtilities        Function ShowAllUtilities sums up all results
+                        of utility measures
+caBTL                   Function caBTL estimates participation (market
+                        share) of simulation profiles
+caEncodedDesign         Function caEncodedDesign encodes full or
+                        fractional factorial design
+caFactorialDesign       Function caFactorialDesign creates full or
+                        fractional factorial design
+caImportance            Function caImportance calculates importance of
+                        all attributes
+caLogit                 Function caLogit estimates participation
+                        (market share) of the simulation profiles
+caMaxUtility            Function caMaxUtility estimates participation
+                        (market share) of simulation profiles
+caModel                 Function caModel estimates parameters of
+                        conjoint analysis model
+caPartUtilities         Function caPartUtilities calculates matrix of
+                        individual utilities
+caRankToScore           Function caRankToScore transforms ranking data
+                        into rating data design
+caRecreatedDesign       Function caRecreatedDesign reconstructs
+                        factorial design
+caSegmentation          Function caSegmentation divides respondents on
+                        clusters
+caTotalUtilities        Function caTotalUtilities calculates matrix of
+                        theoreticall total utilities
+caUtilities             Function caUtilities calculates utilities of
+                        levels of atrtributes
+cpref                   Sample data for conjoint analysis
+czpref                  Sample data for conjoint analysis
+hpref                   Sample data for conjoint analysis
+ipref                   Sample data for conjoint analysis
+jpref                   Sample data for conjoint analysis
+lpref                   Sample data for conjoint analysis
+ppref                   Sample data for conjoint analysis
+tpref                   Sample data for conjoint analysis
+wpref                   Sample data for conjoint analysis

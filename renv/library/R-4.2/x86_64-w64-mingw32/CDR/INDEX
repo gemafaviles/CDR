@@ -1,0 +1,91 @@
+EN_declaracion          Declaración institucional del presidente del
+                        gobierno en inglés.
+TIC2021                 Estadísticas de uso de las TIC en la Unión
+                        Europea 2021
+Tol_prov                Archivo de datos raster de la provincia de
+                        Toledo
+accidentes2020_data     Datos de accidentes de tráfico en 2020 en
+                        Madrid
+activefires             Datos de fuegos activos en EEUU y Latinoamérica
+                        entre 24 de Febrero y 3 de Marzo de 2022
+ayuntam                 Datos simulados sobre el signo político y la
+                        prestación de un determinado servicio.
+ayuso                   Datos simulados sobre la opinión de la
+                        presidenta de la Comunidad de Madrid, Isabel D.
+                        Ayuso.
+cities                  Asentamientos urbanos chilenos con mas de 2000
+                        habitantes en 2002
+cleveland               Datos de pacientes que llegan a un hospital con
+                        dolor de pecho
+clothes                 Datos de reseñas y calificaciones de ropa de
+                        comercio electrónico para mujeres.
+consumoelectricoanual   PIB per cápita y consumo eléctrico en España
+consumoelectricoanual_2
+                        PIB per cápita y consumo eléctrico en España
+contam_mad              Datos de los contaminantes registrados por las
+                        estaciones de medición situadas la Ciudad de
+                        Madrid
+crime_data_valencia     Data of crimes in the city of Valencia (Spain)
+data_periodismo         Datos sobre las elecciones andaluzas (2015,
+                        2018, 2022)
+datos_elecciones        Resultados electorales en Andalucia
+datos_facebook          Datos simulados sobre las relaciones de una
+                        cuenta en la red social Facebook.
+datos_grafos            Datos para ejemplo de grafos.
+datos_observacional     Datos observacional
+datos_players           Estadísticas de fútbol por jugador y temporada
+datos_retail            Datos para la segmentación de clientes de una
+                        empresa de venta minorista
+datos_supervivencia     Datos supervivencia
+declaracion             Declaración institucional del presidente del
+                        gobierno.
+dim_cliente             Tabla con información de clientes
+dim_fecha_venta         Tabla con fechas de ventas
+dim_nivel_educacion_cliente
+                        Tabla con los niveles de educación de los
+                        clientes
+dim_producto            Tabla con los productos que están a la venta
+dp_entr                 Datos para entrenamiento de los modelos en
+                        escala categórica
+dp_entr_NUM             Datos para entrenamiento de los modelos en
+                        escala numérica
+elev                    Datos de elevación de la provincia de Toledo en
+                        metros
+elon_musk               Tweets de Elon Musk
+fac_venta               Tabla de compras realizadas por clientes
+festivos                Datos de festivos en España desde 1995 hasta
+                        2044
+gdpmap                  Municipios (NUTS 5) que forman parte de las
+                        áreas urbanas de España
+guerry                  Datos del estudio clásico "Essai sur la
+                        statistique morale de la France Paris" de
+                        Guerry (1833).
+hosp_toledo             Datos de hospitales y centros de salud en la
+                        ciudad de Toledo (España)
+hotel_tablonsemanal     Datos para el ejemplo de modelización del
+                        retorno publicitario sobre volumen de reservas
+                        de una cadena hotelera en España (datos
+                        simulados)
+ipc                     Datos mensuales del índice general de precios
+                        al consumo de España.
+marvel_edges            Relación entre los personajes pertenecientes al
+                        Universo Marvel.
+medellin                Datos de crímenes en medellín durante 2005
+municipios              Datos de cartografía de municipios de España
+nepal                   Datos de incendio forestal en nepal durante
+                        2016
+oversize_edges          Datos de la red criminal procedente del caso
+                        Oversize.
+oversize_nodes          Datos de la red criminal procedente del caso
+                        Oversize.
+parados_clm             Paro registrado de Castilla-La Mancha
+renta_municipio_data    Datos de renta per capita por municipio (en
+                        euros)
+tajo                    Data of Tajo river
+tempmax_data            Datos de temperatura máxima del aire
+                        registradas en España en 2022
+tempmin_data            Datos de temperatura mínima del aire
+                        registradas en España con la borrasca Filomena
+toledo                  Geometría de la provincia de Toledo
+valencia                Datos de accidentes de tráfico en la ciudad de
+                        valencia durante 2020

@@ -1,0 +1,47 @@
+addProviderEspTiles     Include base tiles of Spanish public
+                        administrations on a 'leaflet' map
+esp_check_access        Check access to SIANE data
+esp_clear_cache         Clear your 'mapSpain' cache dir
+esp_codelist            Spanish Code Translation Data Frame
+esp_dict_region_code    Convert and translate Subdivision Names
+esp_getTiles            Get static tiles from public administrations of
+                        Spanish.
+esp_get_can_box         Get 'sf' lines and polygons for insetting the
+                        Canary Islands
+esp_get_capimun         Get 'sf' points of the municipalities of Spain
+esp_get_ccaa            Get Autonomous Communities of Spain as 'sf'
+                        polygons and points
+esp_get_comarca         Get 'comarcas' of Spain as 'sf' polygons
+esp_get_country         Get the borders of Spain as a 'sf' polygon
+esp_get_grid_BDN        Get 'sf' polygons of the national geographic
+                        grids provided by BDN
+esp_get_grid_EEA        Get 'sf' polygons of the national geographic
+                        grids provided by EEA
+esp_get_grid_ESDAC      Get 'sf' polygons of the national geographic
+                        grids provided by ESDAC
+esp_get_grid_MTN        Get 'sf' polygons of the national geographic
+                        grids provided by IGN
+esp_get_gridmap         Get a 'sf' hexbin or squared polygon of Spain
+esp_get_hydrobasin      Get 'sf' polygons of the drainage basin
+                        demarcations of Spain
+esp_get_hypsobath       Get 'sf' polygons and lines with the hypsometry
+                        and bathymetry of Spain
+esp_get_munic           Get municipalities of Spain as 'sf' polygons
+esp_get_nuts            Get NUTS of Spain as 'sf' polygons and points
+esp_get_prov            Get Provinces of Spain as 'sf' polygons and
+                        points
+esp_get_railway         Get 'sf' lines and points with the railways of
+                        Spain
+esp_get_rivers          Get 'sf' polygon and lines of rivers, channels
+                        and other wetlands of Spain
+esp_get_roads           Get 'sf' lines of the roads of Spain
+esp_get_simpl_prov      Get a simplified map of provinces and
+                        autonomous communities of Spain
+esp_make_provider       Create a custom tile provider
+esp_munic.sf            All Municipalities 'POLYGON' object of Spain
+                        (2019)
+esp_nuts.sf             All NUTS 'POLYGON' object of Spain
+esp_set_cache_dir       Set your 'mapSpain' cache dir
+esp_tiles_providers     List with information of Public WMS and WMTS of
+                        Spain
+pobmun19                Population by municipality (2019)

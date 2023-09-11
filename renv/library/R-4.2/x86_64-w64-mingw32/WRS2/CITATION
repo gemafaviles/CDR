@@ -1,0 +1,23 @@
+citHeader("To cite package 'WRS2' in publications use:")
+year <- sub("-.*", "", meta$Date)
+vers <- meta$Version
+note <- sprintf("R package version %s", meta$Version)
+
+PM  <- person("Patrick", "Mair")
+RW  <- person("Rand", "Wilcox")
+
+citEntry(
+  header  = paste0("\n", paste0(rep("#", getOption("width")-1L), collapse=""), "\nThe main WRS2 article:\n"),
+  entry   = "ARTICLE",
+  title   = "{Robust Statistical Methods in R Using the WRS2 Package}",
+  author  = c(PM, RW),
+  year    = 2020,
+  journal = "Behavior Research Methods",
+  volume  = "52",
+  pages = "464--488",
+  textVersion = paste0(
+    "Mair, P., & Wilcox, R. R. (2020). ",
+    "Robust Statistical Methods in R Using the WRS2 Package. ",
+    "Behavior Research Methods, 52, 464-488."
+  )
+)

@@ -1,0 +1,100 @@
+ALE                     Generic function for Accumulated Local Effect
+                        (ALE)
+ALE.gam                 Create Accumulated Local Effects (ALE) for GAMs
+bamV                    Fit a GAM model and get a gamViz object
+check.gamViz            Some diagnostics for a fitted gam model
+check0D                 Checking GAM simulated residuals or responses
+check1D                 Checking GAM residuals or responses along one
+                        covariate
+check2D                 Checking GAM residuals along two covariates
+fix.family.cdf          Getting the CDF of a gam family
+gamm4V                  Fit a GAMM or GAMM4 model and get a gamViz
+                        object
+getGam                  Convert gamViz object to gamObject
+getViz                  Converting gam objects to gamViz objects
+gridPrint               Plotting plotSmooth objects on a grid
+l_bound                 Add boundaries to smooth effect plot
+l_ciBar                 Adding confidence intervals to barplots
+l_ciLine                Adding confidence intervals to effect plot
+l_ciPoly                Adding confidence band to effect plots
+l_clusterLine           Cluster and plot smooth effects
+l_coordContour          Adding coordinate lines
+l_dens1D                Adding density estimate to a plot
+l_dens2D                Adding density estimate heatmap
+l_densCheck             Checking residuals conditional density
+l_fitBar                Adding barplot to effect plots
+l_fitContour            Adding fitted effect contour lines
+l_fitDens               Adding density strip of fitted effect
+l_fitLine               Add fitted smooth effect curve
+l_fitPoints             Adding points representing the fitted effect
+l_fitRaster             Adding raster representing the fitted effect
+l_glyphs2D              Adding glyphs to 2D plots
+l_gridCheck1D           Binning and checking GAM residuals
+l_gridCheck2D           Binning and checking GAM residuals
+l_gridQCheck1D          Checking sign of residuals along one covariate
+l_gridQCheck2D          Binning and checking QGAM residuals
+l_hist                  Adding histogram to a plot
+l_points                Add points to plot
+l_poly                  Add polygons to effect plots
+l_pvContour             Adding contour of p-values
+l_pvRaster              Adding raster or heat-map of p-values
+l_rug                   Adding rug to margins of a plot
+l_simLine               Add simulated smooth effect curves
+l_vline                 Adding vertical line to a plot
+listLayers              Lists available layers for plotSmooth objects
+mqgamV                  Fit multiple QGAM models and get a mgamViz
+                        object
+plot.ALE1D              Plot 1D Accumulated Local Effects (ALE)
+plot.fs.interaction.1D
+                        Plotting one dimensional smooth factor
+                        interactions
+plot.gamViz             Basic GAM plotting
+plot.mgamViz            Plotting multiple quantile GAMs
+plot.mgcv.smooth.1D     Plotting one dimensional smooth effects
+plot.mgcv.smooth.2D     Plotting two dimensional smooth effects
+plot.mgcv.smooth.MD     Plotting slice of higher-dimensional smooth
+                        effects
+plot.mrf.smooth         Plotting Markov random field smooths
+plot.multi.ptermFactor
+                        Plotting factor or logical parametric effects
+plot.multi.random.effect
+                        Plotting random effects
+plot.ptermInteraction   Plotting parametric interactions
+plot.ptermMatrixNumeric
+                        Plotting numeric parametric effects
+plot.sos.smooth         Plotting smooths on the sphere
+plotDiff                Generic plotting of differences
+plotDiff.mgcv.smooth.1D
+                        Plotting differences between two 1D smooth
+                        effects
+plotDiff.mgcv.smooth.2D
+                        Plotting differences between two 2D smooth
+                        effects
+plotDiff.sos.smooth     Plotting differences between two smooths on the
+                        sphere
+plotRGL                 Generic RGL plotting function
+plotRGL.mgcv.smooth.2D
+                        Visualizing 2D smooth effects in 3D
+plotRGL.mgcv.smooth.MD
+                        Visualizing a 2D slice of a smooth effects in
+                        3D
+plotSlice               Plotting sequence of slices of 2D smooth effect
+postSim                 Posterior simulation from a GAM object
+print.checkGam          Printing the output of check.gamViz
+print.plotGam           Printing the output of plot.gamViz
+print.plotSmooth        Printing plots of smooth effects
+print.qqGam             Printing the output of qq.gamViz
+pterm                   Extracting parametric effects from a GAM model
+qgamV                   Fit a QGAM model and get a gamViz object
+qq                      Generic QQ plots
+qq.gamViz               QQ plots for gam model residuals
+qqplots                 Quantile-Quantile Plots
+residuals.gamViz        Generalized Additive Model residuals
+shine                   Generic shine function
+shine.qqGam             Shiny QQ-plots for GAMs
+simulate.gam            Simulating responses from a GAM object
+sm                      Extracting a smooth effect from a GAM model
+zoom                    Generic zooming function
+zoom.qqGam              Efficiently zooming on GAM QQ-plots
+zto1                    Constructing a decreasing function from (0,1)
+                        to (0,1)

@@ -1,0 +1,44 @@
+---
+title: "Data quality diagnosis"
+author: "Choonghyun Ryu"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Data quality diagnosis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Preface
+After you have acquired the data, you should do the following:
+
+* **Diagnose data quality.**
+    + **If there is a problem with data quality,**
+    + **The data must be corrected or re-acquired.**
+* Explore data to understand the data and find scenarios for performing the analysis.
+* Derive new variables or perform variable transformations.
+
+The dlookr package makes these steps fast and easy:
+
+* **Performs a data diagnosis or automatically generates a data diagnosis report.**
+* Discover data in a variety of ways, and automatically generate EDA(exploratory data analysis) report.
+* Impute missing values and outliers, resolve skewed data, and categorize continuous variables into categorical variables. And generates an automated report to support it.
+
+This document introduces **Data Quality Diagnosis** methods provided by the dlookr package. You will learn how to diagnose the quality of `tbl_df` data that inherits from data.frame and `data.frame` with functions provided by dlookr.
+
+dlookr increases synergy with `dplyr`. Particularly in data exploration and data wrangle, it increases the efficiency of the `tidyverse` package group.
+
+## Supported data structures
+Data diagnosis supports the following data structures.
+
+* data frame : data.frame class.
+* data table : tbl_df class.
+* **table of DBMS** : table of the DBMS through tbl_dbi.
+  + **Use dplyr as the back-end interface for any DBI-compatible database.**
+  
+## How to perform data diagnosis
+
+For information on how to perform data diagnosis, refer to the following website.
+
+- [`Data quality diagnosis`](https://choonghyunryu.github.io/dlookr_vignette/diagonosis.html)
+

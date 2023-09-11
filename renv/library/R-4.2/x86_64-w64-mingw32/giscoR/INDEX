@@ -1,0 +1,28 @@
+gisco_attributions      Attribution when publishing GISCO data
+gisco_bulk_download     Bulk download from GISCO API
+gisco_check_access      Check access to GISCO API
+gisco_clear_cache       Clear your *giscoR* cache dir
+gisco_coastallines      World coastal lines 'POLYGON' object
+gisco_countries         World countries 'POLYGON' object
+gisco_countrycode       Dataframe with different country code schemes
+                        and world regions
+gisco_get_airports      Get location of airports and ports from GISCO
+                        API
+gisco_get_coastallines
+                        Get GISCO coastlines 'sf' polygons
+gisco_get_countries     Get GISCO world country 'sf' polygons, points
+                        and lines
+gisco_get_grid          Get grid cells covering covering Europe for
+                        various resolutions
+gisco_get_healthcare    Get locations of healthcare services in Europe.
+gisco_get_lau           Get GISCO urban areas 'sf' polygons, points and
+                        lines
+gisco_get_nuts          Get GISCO NUTS 'sf' polygons, points and lines
+gisco_get_postalcodes   Get postal code points from GISCO
+gisco_get_units         Get geospatial units data from GISCO API
+gisco_get_urban_audit   Get GISCO greater cities and metropolitan areas
+                        'sf' polygons and points
+gisco_nuts              All NUTS 'POLYGON' object
+gisco_set_cache_dir     Set your *giscoR* cache dir
+tgs00026                Disposable income of private households by NUTS
+                        2 regions

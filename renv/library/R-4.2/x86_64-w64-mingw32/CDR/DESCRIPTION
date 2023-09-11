@@ -1,0 +1,30 @@
+Package: CDR
+Title: Datos del libro Ciencia de Datos con R
+Version: 0.0.3.0
+Authors@R: 
+    person("Itzcoatl", "Bueno", , "itzbueno@ucm.es", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-5629-1906"))
+Description: All the datasets used in the book "Ciencia de Datos con R".
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: R (>= 3.5.0)
+LazyData: true
+Imports: readxl, sf, readr, here, raster, tibble, fs, terra, giscoR (>=
+        0.3.1), mapSpain (>= 0.6.1)
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: CDR
+RemoteUsername: izcoal
+RemoteRef: HEAD
+RemoteSha: 8f48817c88105b1f561171c2b4778982acfdbe9a
+GithubRepo: CDR
+GithubUsername: izcoal
+GithubRef: HEAD
+GithubSHA1: 8f48817c88105b1f561171c2b4778982acfdbe9a
+NeedsCompilation: no
+Packaged: 2023-06-20 10:53:33 UTC; Gema.FAviles
+Author: Itzcoatl Bueno [aut, cre] (<https://orcid.org/0000-0002-5629-1906>)
+Maintainer: Itzcoatl Bueno <itzbueno@ucm.es>
+Built: R 4.2.1; ; 2023-06-20 10:53:53 UTC; windows

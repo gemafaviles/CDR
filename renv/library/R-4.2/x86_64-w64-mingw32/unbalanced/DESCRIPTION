@@ -1,0 +1,27 @@
+Package: unbalanced
+Type: Package
+Title: Racing for Unbalanced Methods Selection
+Version: 2.1
+Date: 2015-08-07
+Author: Andrea Dal Pozzolo, Olivier Caelen and Gianluca Bontempi
+Maintainer: Andrea Dal Pozzolo <adalpozz@ulb.ac.be>
+Description: A dataset is said to be unbalanced when the class of interest (minority class) is much rarer than normal behaviour (majority class). The cost of missing a minority class is typically much higher that missing a majority class. Most learning systems are not prepared to cope with unbalanced data and several techniques have been proposed. This package implements some of most well-known techniques and propose a racing algorithm to select adaptively the most appropriate strategy for a given unbalanced task.
+License: GPL (>= 3)
+URL: http://mlg.ulb.ac.be
+Depends: mlr, foreach, doParallel
+Imports: FNN, RANN
+Suggests: randomForest, ROCR, knitr
+VignetteBuilder: knitr
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: unbalanced
+RemoteUsername: dalpozz
+RemoteRef: HEAD
+RemoteSha: 321aa626c267e78138f6d5a66b96c6b89cca5df5
+GithubRepo: unbalanced
+GithubUsername: dalpozz
+GithubRef: HEAD
+GithubSHA1: 321aa626c267e78138f6d5a66b96c6b89cca5df5
+NeedsCompilation: no
+Packaged: 2022-11-09 10:01:40 UTC; Gema.FAviles
+Built: R 4.2.1; ; 2022-11-09 10:01:40 UTC; windows

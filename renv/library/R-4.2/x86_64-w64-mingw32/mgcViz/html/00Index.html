@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Visualisations for Generalized Additive Models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Visualisations for Generalized Additive Models
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;mgcViz&rsquo; version 0.1.9</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="ALE.html">ALE</a></td>
+<td>Generic function for Accumulated Local Effect (ALE)</td></tr>
+<tr><td style="width: 25%;"><a href="ALE.gam.html">ALE.gam</a></td>
+<td>Create Accumulated Local Effects (ALE) for GAMs</td></tr>
+<tr><td style="width: 25%;"><a href="gamV.html">bamV</a></td>
+<td>Fit a GAM model and get a gamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="check.gamViz.html">check.gamViz</a></td>
+<td>Some diagnostics for a fitted gam model</td></tr>
+<tr><td style="width: 25%;"><a href="check0D.html">check0D</a></td>
+<td>Checking GAM simulated residuals or responses</td></tr>
+<tr><td style="width: 25%;"><a href="check1D.html">check1D</a></td>
+<td>Checking GAM residuals or responses along one covariate</td></tr>
+<tr><td style="width: 25%;"><a href="check2D.html">check2D</a></td>
+<td>Checking GAM residuals along two covariates</td></tr>
+<tr><td style="width: 25%;"><a href="fix.family.cdf.html">fix.family.cdf</a></td>
+<td>Getting the CDF of a gam family</td></tr>
+<tr><td style="width: 25%;"><a href="gammV.html">gamm4V</a></td>
+<td>Fit a GAMM or GAMM4 model and get a gamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="gammV.html">gammV</a></td>
+<td>Fit a GAMM or GAMM4 model and get a gamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="gamV.html">gamV</a></td>
+<td>Fit a GAM model and get a gamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="getGam.html">getGam</a></td>
+<td>Convert gamViz object to gamObject</td></tr>
+<tr><td style="width: 25%;"><a href="getViz.html">getViz</a></td>
+<td>Converting gam objects to gamViz objects</td></tr>
+<tr><td style="width: 25%;"><a href="gridPrint.html">gridPrint</a></td>
+<td>Plotting plotSmooth objects on a grid</td></tr>
+<tr><td style="width: 25%;"><a href="listLayers.html">listLayers</a></td>
+<td>Lists available layers for plotSmooth objects</td></tr>
+<tr><td style="width: 25%;"><a href="l_bound.html">l_bound</a></td>
+<td>Add boundaries to smooth effect plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_ciBar.html">l_ciBar</a></td>
+<td>Adding confidence intervals to barplots</td></tr>
+<tr><td style="width: 25%;"><a href="l_ciLine.html">l_ciLine</a></td>
+<td>Adding confidence intervals to effect plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_ciPoly.html">l_ciPoly</a></td>
+<td>Adding confidence band to effect plots</td></tr>
+<tr><td style="width: 25%;"><a href="l_clusterLine.html">l_clusterLine</a></td>
+<td>Cluster and plot smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="l_coordContour.html">l_coordContour</a></td>
+<td>Adding coordinate lines</td></tr>
+<tr><td style="width: 25%;"><a href="l_dens2D.html">l_dens</a></td>
+<td>Adding density estimate heatmap</td></tr>
+<tr><td style="width: 25%;"><a href="l_dens1D.html">l_dens1D</a></td>
+<td>Adding density estimate to a plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_dens2D.html">l_dens2D</a></td>
+<td>Adding density estimate heatmap</td></tr>
+<tr><td style="width: 25%;"><a href="l_densCheck.html">l_densCheck</a></td>
+<td>Checking residuals conditional density</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitBar.html">l_fitBar</a></td>
+<td>Adding barplot to effect plots</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitContour.html">l_fitContour</a></td>
+<td>Adding fitted effect contour lines</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitDens.html">l_fitDens</a></td>
+<td>Adding density strip of fitted effect</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitLine.html">l_fitLine</a></td>
+<td>Add fitted smooth effect curve</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitPoints.html">l_fitPoints</a></td>
+<td>Adding points representing the fitted effect</td></tr>
+<tr><td style="width: 25%;"><a href="l_fitRaster.html">l_fitRaster</a></td>
+<td>Adding raster representing the fitted effect</td></tr>
+<tr><td style="width: 25%;"><a href="l_glyphs2D.html">l_glyphs2D</a></td>
+<td>Adding glyphs to 2D plots</td></tr>
+<tr><td style="width: 25%;"><a href="l_gridCheck1D.html">l_gridCheck1D</a></td>
+<td>Binning and checking GAM residuals</td></tr>
+<tr><td style="width: 25%;"><a href="l_gridCheck2D.html">l_gridCheck2D</a></td>
+<td>Binning and checking GAM residuals</td></tr>
+<tr><td style="width: 25%;"><a href="l_gridQCheck1D.html">l_gridQCheck1D</a></td>
+<td>Checking sign of residuals along one covariate</td></tr>
+<tr><td style="width: 25%;"><a href="l_gridQCheck2D.html">l_gridQCheck2D</a></td>
+<td>Binning and checking QGAM residuals</td></tr>
+<tr><td style="width: 25%;"><a href="l_hist.html">l_hist</a></td>
+<td>Adding histogram to a plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_points.html">l_points</a></td>
+<td>Add points to plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_poly.html">l_poly</a></td>
+<td>Add polygons to effect plots</td></tr>
+<tr><td style="width: 25%;"><a href="l_pvContour.html">l_pvContour</a></td>
+<td>Adding contour of p-values</td></tr>
+<tr><td style="width: 25%;"><a href="l_pvRaster.html">l_pvRaster</a></td>
+<td>Adding raster or heat-map of p-values</td></tr>
+<tr><td style="width: 25%;"><a href="l_rug.html">l_rug</a></td>
+<td>Adding rug to margins of a plot</td></tr>
+<tr><td style="width: 25%;"><a href="l_simLine.html">l_simLine</a></td>
+<td>Add simulated smooth effect curves</td></tr>
+<tr><td style="width: 25%;"><a href="l_vline.html">l_vline</a></td>
+<td>Adding vertical line to a plot</td></tr>
+<tr><td style="width: 25%;"><a href="mqgamV.html">mqgamV</a></td>
+<td>Fit multiple QGAM models and get a mgamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ALE1D.html">plot.ALE1D</a></td>
+<td>Plot 1D Accumulated Local Effects (ALE)</td></tr>
+<tr><td style="width: 25%;"><a href="plot.fs.interaction.1D.html">plot.fs.interaction.1D</a></td>
+<td>Plotting one dimensional smooth factor interactions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.gamViz.html">plot.gamViz</a></td>
+<td>Basic GAM plotting</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgamViz.html">plot.mgamViz</a></td>
+<td>Plotting multiple quantile GAMs</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgcv.smooth.1D.html">plot.mgcv.smooth.1D</a></td>
+<td>Plotting one dimensional smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgcv.smooth.2D.html">plot.mgcv.smooth.2D</a></td>
+<td>Plotting two dimensional smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgcv.smooth.MD.html">plot.mgcv.smooth.MD</a></td>
+<td>Plotting slice of higher-dimensional smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mrf.smooth.html">plot.mrf.smooth</a></td>
+<td>Plotting Markov random field smooths</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgcv.smooth.1D.html">plot.multi.mgcv.smooth.1D</a></td>
+<td>Plotting one dimensional smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.mgcv.smooth.2D.html">plot.multi.mgcv.smooth.2D</a></td>
+<td>Plotting two dimensional smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermFactor.html">plot.multi.ptermFactor</a></td>
+<td>Plotting factor or logical parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermInteraction.html">plot.multi.ptermInteraction</a></td>
+<td>Plotting parametric interactions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermFactor.html">plot.multi.ptermLogical</a></td>
+<td>Plotting factor or logical parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermNumeric.html">plot.multi.ptermNumeric</a></td>
+<td>Plotting numeric parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.random.effect.html">plot.multi.random.effect</a></td>
+<td>Plotting random effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermFactor.html">plot.ptermFactor</a></td>
+<td>Plotting factor or logical parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermInteraction.html">plot.ptermInteraction</a></td>
+<td>Plotting parametric interactions</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermFactor.html">plot.ptermLogical</a></td>
+<td>Plotting factor or logical parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermNumeric.html">plot.ptermMatrixNumeric</a></td>
+<td>Plotting numeric parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.ptermNumeric.html">plot.ptermNumeric</a></td>
+<td>Plotting numeric parametric effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.random.effect.html">plot.random.effect</a></td>
+<td>Plotting random effects</td></tr>
+<tr><td style="width: 25%;"><a href="plot.sos.smooth.html">plot.sos.smooth</a></td>
+<td>Plotting smooths on the sphere</td></tr>
+<tr><td style="width: 25%;"><a href="plotDiff.html">plotDiff</a></td>
+<td>Generic plotting of differences</td></tr>
+<tr><td style="width: 25%;"><a href="plotDiff.mgcv.smooth.1D.html">plotDiff.mgcv.smooth.1D</a></td>
+<td>Plotting differences between two 1D smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plotDiff.mgcv.smooth.2D.html">plotDiff.mgcv.smooth.2D</a></td>
+<td>Plotting differences between two 2D smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="plotDiff.sos.smooth.html">plotDiff.sos.smooth</a></td>
+<td>Plotting differences between two smooths on the sphere</td></tr>
+<tr><td style="width: 25%;"><a href="plotRGL.html">plotRGL</a></td>
+<td>Generic RGL plotting function</td></tr>
+<tr><td style="width: 25%;"><a href="plotRGL.mgcv.smooth.2D.html">plotRGL.mgcv.smooth.2D</a></td>
+<td>Visualizing 2D smooth effects in 3D</td></tr>
+<tr><td style="width: 25%;"><a href="plotRGL.mgcv.smooth.MD.html">plotRGL.mgcv.smooth.MD</a></td>
+<td>Visualizing a 2D slice of a smooth effects in 3D</td></tr>
+<tr><td style="width: 25%;"><a href="plotSlice.html">plotSlice</a></td>
+<td>Plotting sequence of slices of 2D smooth effect</td></tr>
+<tr><td style="width: 25%;"><a href="postSim.html">postSim</a></td>
+<td>Posterior simulation from a GAM object</td></tr>
+<tr><td style="width: 25%;"><a href="print.checkGam.html">print.checkGam</a></td>
+<td>Printing the output of check.gamViz</td></tr>
+<tr><td style="width: 25%;"><a href="print.plotGam.html">print.plotGam</a></td>
+<td>Printing the output of plot.gamViz</td></tr>
+<tr><td style="width: 25%;"><a href="print.plotSmooth.html">print.plotSmooth</a></td>
+<td>Printing plots of smooth effects</td></tr>
+<tr><td style="width: 25%;"><a href="print.qqGam.html">print.qqGam</a></td>
+<td>Printing the output of qq.gamViz</td></tr>
+<tr><td style="width: 25%;"><a href="pterm.html">pterm</a></td>
+<td>Extracting parametric effects from a GAM model</td></tr>
+<tr><td style="width: 25%;"><a href="qgamV.html">qgamV</a></td>
+<td>Fit a QGAM model and get a gamViz object</td></tr>
+<tr><td style="width: 25%;"><a href="qq.html">qq</a></td>
+<td>Generic QQ plots</td></tr>
+<tr><td style="width: 25%;"><a href="qq.gamViz.html">qq.gamViz</a></td>
+<td>QQ plots for gam model residuals</td></tr>
+<tr><td style="width: 25%;"><a href="qqplots.html">qqline</a></td>
+<td>Quantile-Quantile Plots</td></tr>
+<tr><td style="width: 25%;"><a href="qqplots.html">qqnorm</a></td>
+<td>Quantile-Quantile Plots</td></tr>
+<tr><td style="width: 25%;"><a href="qqplots.html">qqplot</a></td>
+<td>Quantile-Quantile Plots</td></tr>
+<tr><td style="width: 25%;"><a href="qqplots.html">qqplots</a></td>
+<td>Quantile-Quantile Plots</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.gamViz.html">residuals.gamViz</a></td>
+<td>Generalized Additive Model residuals</td></tr>
+<tr><td style="width: 25%;"><a href="shine.html">shine</a></td>
+<td>Generic shine function</td></tr>
+<tr><td style="width: 25%;"><a href="shine.qqGam.html">shine.qqGam</a></td>
+<td>Shiny QQ-plots for GAMs</td></tr>
+<tr><td style="width: 25%;"><a href="simulate.gam.html">simulate.gam</a></td>
+<td>Simulating responses from a GAM object</td></tr>
+<tr><td style="width: 25%;"><a href="sm.html">sm</a></td>
+<td>Extracting a smooth effect from a GAM model</td></tr>
+<tr><td style="width: 25%;"><a href="zoom.html">zoom</a></td>
+<td>Generic zooming function</td></tr>
+<tr><td style="width: 25%;"><a href="zoom.qqGam.html">zoom.qqGam</a></td>
+<td>Efficiently zooming on GAM QQ-plots</td></tr>
+<tr><td style="width: 25%;"><a href="zto1.html">zto1</a></td>
+<td>Constructing a decreasing function from (0,1) to (0,1)</td></tr>
+</table>
+</div></body></html>

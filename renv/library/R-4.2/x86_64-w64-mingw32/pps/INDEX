@@ -1,0 +1,13 @@
+permuteinstrata: Randomize the order of elements *within* each stratum 
+
+ppss: Use PPS systematic sampling to select a sample of n units out of N 
+
+ppssstrat(stratified pps systematic sampling): Apply ppss() to each stratum
+
+ppswr: Select a PPS sample *with* replacement of n units out of N
+
+sampford: Sampford's method for PPS sampling
+
+sampfordpi: Compute joint inclusion probabilities for Sampford's method
+
+stratsrs: Select a simple random sample from each stratum

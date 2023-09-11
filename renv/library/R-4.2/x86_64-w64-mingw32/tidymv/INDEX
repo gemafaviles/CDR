@@ -1,0 +1,10 @@
+create_start_event      Create a start event column.
+geom_smooth_ci          Smooths and confidence intervals.
+get_gam_predictions     Get predictions from a GAM model.
+get_smooths_difference
+                        Get difference of smooths from a GAM model
+inter_df                Dataset with two factors
+plot_difference         Plot difference smooth from a GAM.
+plot_smooths            Plot GAM smooths.
+pois_df                 Dataset with a Poisson outcome variable
+predict_gam             Get predictions from a GAM model.

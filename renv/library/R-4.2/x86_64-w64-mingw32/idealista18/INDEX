@@ -1,0 +1,14 @@
+Barcelona_POIS          Places of interest in Barcelona.
+Barcelona_Polygons      Neighborhood polygons in Barcelona.
+Barcelona_Sale          Sale prices of residential property in
+                        Barcelona in 2018.
+Madrid_POIS             Places of interest in Madrid
+Madrid_Polygons         Neighborhood polygons in Madrid
+Madrid_Sale             Sale prices of residential property in Madrid
+                        in 2018.
+Valencia_POIS           Places of interest in Valencia
+Valencia_Polygons       Neighborhood polygons in Valencia.
+Valencia_Sale           Sale prices of residential property in Valencia
+                        in 2018.
+idealista18             idealista18: A data package with real estate
+                        listings in Spain from the idealista data base.

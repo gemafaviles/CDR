@@ -1,0 +1,34 @@
+The pps package consists of several functions for selecting a sample from a
+finite population. Some possible uses of the package are mentioned in the
+User's Guide, pps-ug.pdf. The package implements mainly
+probability-proportional-to-size (PPS) methods, specifically PPS systematic
+sampling and Sampford's method.  Details are given in the User's Guide. It is
+assumed that the user has some familiarity with sample survey theory and
+methods.
+
+The software should be considered beta software. Any improvements are welcome;
+my e-mail address is jack.gambino@gmail.com. Development and testing have
+been done largely on a linux system. I would be interested in hearing of
+experiences on other platforms.
+
+The methods implemented in the package are well known and I deserve no credit 
+whatsoever for them. This package is just my (very) little contribution to the
+free software movement, from which I have benefited enormously.
+
+The legal mumbo-jumbo follows.
+
+Copyright (C) 2003 Jack G. Gambino
+
+This pps package is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+A copy of the GNU General Public License is available via WWW at
+http://www.gnu.org/copyleft/gpl.html.	You can also obtain it by writing to
+the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+02111-1307  USA.
+
